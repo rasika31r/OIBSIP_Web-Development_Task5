@@ -1,31 +1,3 @@
-/* function convertTemp() {
-  const degrees = parseFloat(document.getElementById('degrees').value);
-  const type = document.getElementById('type').value;
-  const resultField = document.getElementById('result');
-
-  if (isNaN(degrees)) {
-    resultField.value = "Invalid input";
-    return;
-  }
-
-  let result = "";
-
-  switch (type) {
-    case "Celsius":
-      result = `${(degrees * 9 / 5 + 32).toFixed(4)} °F`;
-      break;
-    case "Fahrenheit":
-      result = `${((degrees - 32) * 5 / 9).toFixed(4)} °C`;
-      break;
-    case "Kelvin":
-      result = `${(degrees - 273.15).toFixed(4)} °C`;
-      break;
-  }
-
-  resultField.value = result;
-} */
-
-
 
   function convertTemp() {
   const degrees = parseFloat(document.getElementById('degrees').value);
@@ -61,4 +33,5 @@
   }
 
   resultField.value = result;
+
 }
